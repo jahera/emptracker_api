@@ -1,0 +1,2 @@
+# Used as the base secret for Devise-JWT
+devise_jwt_secret_key: 'b1d17ee3ffc0b036e066e4746793a2e46958234435354d945c236aca4650f3a309e267c298745a6c782c3a43780898b088e8de7f6d422b2654a2fec211fbe70b'
