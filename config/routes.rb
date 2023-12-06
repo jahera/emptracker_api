@@ -16,6 +16,7 @@ Rails.application.routes.draw do
     namespace :v1 do 
       # Defines the root path route ("/")
       root to: "dashboard#index"
+        get "/rooms", to: "rooms#index"
     end
   end
 end
