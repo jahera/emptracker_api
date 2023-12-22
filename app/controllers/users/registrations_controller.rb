@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class Users::RegistrationsController < Devise::RegistrationsController
-  # include RackSessionFix
+  include RackSessionFix
   respond_to :json
 
 

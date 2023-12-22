@@ -14,9 +14,10 @@ Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   namespace :api do
     namespace :v1 do 
+      resources :rooms
       # Defines the root path route ("/")
       root to: "dashboard#index"
-        get "/rooms", to: "rooms#index"
+        #get "/rooms", to: "rooms#index"
     end
   end
 end
